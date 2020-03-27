@@ -27,13 +27,42 @@ hr {
 
 .tabgroup {
     margin-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .tab-content {
     margin-top: 2%;
     margin-left: 2%;
+    
+}
+dt{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 5%;
+    margin-bottom: 0.5%;
+    font-family: Palatino, URW Palladio L, serif;
+}
+dd {
+    font-size: 15px;
+    margin-left: 2%;
+    font-family: Times, Times New Roman, serif;
 }
 
 .symbolGroup {
     outline: none;
+}
+
+.date {
+    font-size: 18px;
+}
+
+.footnote {
+    font-size: 15px;
+}
+
+p.description {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 10%;
 }
