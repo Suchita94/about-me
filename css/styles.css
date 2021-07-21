@@ -6,12 +6,25 @@ img {
 }
 
 body {
-    background-color: rgba(128, 196, 190, 0.041);
+    background-color: #f5e2d0;
 }
 
 .leftCol {
-    margin-top: 5%;
-    padding-left: 10%;
+    padding-top: 7%;
+    height: 100vh;
+    background-color: #1e2731;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.40), 0 1px 4px rgba(0, 0, 0, 0.80);
+}
+
+.leftColContent {
+    padding-right: 7%;
+    padding-left: 7%;
+    font-size: large;
+}
+
+.profPic {
+    margin-left: 11%;
+    margin-bottom: 5%;
 }
 
 h1 {
@@ -19,38 +32,97 @@ h1 {
     font-size: 42px;
     font-weight: 600;
     margin-top: 10%;
+    margin-left: 6%;
+}
+
+.lightFontColor {
+    color: #d7e1e4;
+}
+
+.lightFontColor a:link{
+    color: #c2b0a0;
+}
+
+.lightFontColor a:visited{
+    color: #c2b0a0;
+}
+
+.lightFontColor a:hover{
+    color: orange;
+}
+
+.lightFontColor a:active{
+    color:pink;
 }
 
 hr {
     border-top: 1px solid #a19b9b98;
+    padding-bottom: 5%;
 }
 
 .tabgroup {
-    margin-top: 3%;
+    margin-top: 5%;
     padding-right: 10%;
-    padding-left: 10%;
+    padding-left: 3%;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-item .active {
+    color: #d7e1e4 !important;
+    background-color: #1e2731 !important;
+    border-top-left-radius: .5rem !important;
+    border-top-right-radius: .5rem !important;
+}
+
+.nav-item .active:hover {
+    color: #d7e1e4 !important;
+    background-color: #1e2731 !important;
+    cursor: default;
+}
+
+.nav-link:hover {
+    background-color: #eca867 !important;
+    color: black !important;
+    border-top-left-radius: .5rem !important;
+    border-top-right-radius: .5rem !important;
+}
+
+.nav-link {
+    color: #1e2731;
+    font-size: x-large;
+    display: inline;
+    white-space: nowrap;
+}
+
+.nav-tabs {
+    padding-bottom: 1% !important;
+    margin-right: -5% !important;
 }
 
 .tab-content {
     margin-top: 2%;
     margin-left: 2%;
-    
+    font-family: 'Roboto', sans-serif;
 }
 dt{
     font-weight: 400;
     font-size: 22px;
     margin-top: 5%;
     margin-bottom: 0.5%;
-    font-family: Palatino, URW Palladio L, serif;
+    font-family: 'Lato', sans-serif;
 }
 dd {
     font-size: 15px;
     margin-left: 2%;
-    font-family: Times, Times New Roman, serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .symbolGroup {
     outline: none;
+    font-size: xx-large;
+    margin-left: 1%;
+    position: fixed;
+    bottom: 0;
 }
 
 .date {
@@ -65,4 +137,5 @@ p.description {
     text-align: justify;
     text-justify: inter-word;
     padding-right: 10%;
+    font-family: 'Lato', sans-serif;
 }
